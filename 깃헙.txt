@@ -195,5 +195,8 @@ git init : 비어있는 레포지토리 생성하기
   git branch 는 현재 브렌치의 목록파악가능
   git branch -d (브랜치명) : 브랜치 삭제
   git checkout -b (브랜치명) : 해당 브랜치를 만들면서 바로 이동
+
+  branch merge : 다른 브렌치에서 했던 커밋을 가져오고싶을때 사용
+  git merge --abort : 머지를 하다가 conflict가 발생했을 때, 일단은 머지 작업을 취소하고 이전 상태로 돌아감
   
-  
+ 
